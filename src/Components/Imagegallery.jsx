@@ -1,48 +1,61 @@
+import { useState } from "react";
 import image1 from "../assets/images/img1.jfif";
 import image2 from "../assets/images/img2.jfif";
 import image3 from "../assets/images/img3.jfif";
 import image4 from "../assets/images/img4.jfif";
 import image5 from "../assets/images/img5.jfif";
 import image6 from "../assets/images/img6.jfif";
+
 const Imagegallery = () => {
-  let all = {
+  const images = [image1, image2, image3, image4, image5, image6];
+
+  const [hoverIndex, setHoverIndex] = useState(null);
+
+  const all = {
     background: "crimson",
-    height: "100vh",
+    minHeight: "100vh",
   };
-  let headStyle = {
+
+  const headStyle = {
     textAlign: "center",
     color: "white",
     margin: "20px 0",
     padding: "20px 0",
   };
-  let imageStyle = {
+
+  const imageStyle = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
     flexWrap: "wrap",
   };
-  let imgStyle = {
+
+  const getImgStyle = (index) => ({
     width: "200px",
     borderRadius: "10px",
     boxShadow: "1px 1px 15px black",
     margin: "20px",
-  };
+    transition: "0.3s",
+    transform: hoverIndex === index ? "scale(0.9)" : "scale(1)",
+  });
+
   return (
-    <>
-      <div style={all}>
-        <h1 className="heading" style={headStyle}>
-          This is Image Gallery
-        </h1>
-        <div className="image" style={imageStyle}>
-          <img src={image1} style={imgStyle} />
-          <img src={image2} style={imgStyle} />
-          <img src={image3} style={imgStyle} />
-          <img src={image4} style={imgStyle} />
-          <img src={image5} style={imgStyle} />
-          <img src={image6} style={imgStyle} />
-        </div>
+    <div style={all}>
+      <h1 style={headStyle}>Image Gallery</h1>
+
+      <div style={imageStyle}>
+        {images.map((img, index) => (
+          <img
+            key={index}
+            src={img}
+            style={getImgStyle(index)}
+            onMouseEnter={() => setHoverIndex(index)}
+            onMouseLeave={() => setHoverIndex(null)}
+          />
+        ))}
       </div>
-    </>
+    </div>
   );
 };
+
 export default Imagegallery;
