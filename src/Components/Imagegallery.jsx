@@ -36,7 +36,7 @@ const Imagegallery = () => {
     boxShadow: "1px 1px 15px black",
     margin: "20px",
     transition: "0.3s",
-    transform: hoverIndex === index ? "scale(0.9)" : "scale(1)",
+    transform: hoverIndex === index ? "scale(1)" : "scale(.9)",
   });
 
   return (
