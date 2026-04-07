@@ -19,7 +19,7 @@
             /* border: 1px solid black; */
             border-radius: 10px;
             transition: .5s;
-            box-shadow: 1px 1px 15px black;
+            box-shadow: 1px 1px 14px black;
      
         }
         img:hover{
