@@ -1,0 +1,47 @@
+h1 {
+  background: linear-gradient( rgb(32, 174, 221),  rgb(205, 234, 245));
+  display: block;
+  text-align: center;
+  color: orangered;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  table {
+    /* border: 2px solid red; */
+    margin: 50px;
+    width: 70vw;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 15px gray;
+    border-radius: 10px;
+    thead {
+        /* border: 1px solid red;
+        border-top-left-radius: 10px; */
+        color: white;
+      background: rgb(32, 174, 221);
+      tr {
+        
+        th {
+          padding: 10px 15px;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        th {
+        }
+        td {
+          text-align: center;
+          padding: 10px 15px;
+        }
+      }
+      tr:nth-child(even) {
+        background: rgb(205, 234, 245);
+      }
+    }
+  }
+}
