@@ -1,0 +1,44 @@
+export const friendsData = [
+    {
+        id : 1,
+        name : "Kushal",
+        phno : 9876543215,
+        email : "kushal@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2023/06/01/01/53/male-8032473_1280.jpg"
+    },
+    {
+        id : 2,
+        name : "Ajay",
+        phno : 5689874321,
+        email : "ajay@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2023/02/18/04/38/man-7797279_1280.jpg"
+    },
+    {
+        id : 3,
+        name : "Pallvi",
+        phno : 7215874698,
+        email : "pallavi@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2022/12/02/03/34/girl-7630191_1280.jpg"
+    },
+    {
+        id : 4,
+        name : "Anusha",
+        phno : 6589471235,
+        email : "anusha@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2021/10/26/02/41/woman-6742445_1280.jpg"
+    },
+    {
+        id : 5,
+        name : "Murali",
+        phno : 9865986574,
+        email : "murali@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2024/06/22/23/00/boy-8847074_1280.jpg"
+    },
+    {
+        id : 6,
+        name : "Akhila",
+        phno : 7894567894,
+        email : "akhila@gmail.com",
+        imageUrl : "https://cdn.pixabay.com/photo/2021/07/19/03/40/woman-6477110_1280.jpg"
+    },
+]

@@ -33,7 +33,7 @@ const Students = () => {
                         <td>{place}</td>
                         <td>{dob}</td>
                         <td>{degree}</td>
-                        <td>{new Date().getFullYear}</td>
+                        <td>{new Date().getFullYear() - dob.slice(0,4)}</td>
                     </tr>
                 )
               })}
