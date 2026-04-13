@@ -3,6 +3,8 @@ import './webapp.css'
 import Header from './Header'
 import Navbar from './Navbar'
 import Sidebar from './Sidebar'
+import Mainsection from './Mainsection'
+import Footer from './Footer'
 
 const WebApp = () => {
     return (
@@ -10,10 +12,10 @@ const WebApp = () => {
             <div className="webapp">
                 <div className="container">
                     <header><Header/></header>
-                    <nav>,<Navbar/></nav>
+                    <nav><Navbar/></nav>
                     <aside><Sidebar/></aside>
-                    <main>main</main>
-                    <footer>footer</footer>
+                    <main><Mainsection/></main>
+                    <footer><Footer /></footer>
                 </div>
             </div>
         </>

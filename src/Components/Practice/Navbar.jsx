@@ -6,12 +6,12 @@ const Navbar = () => {
   return (
     <div id="navbar">
       <div className="image">
-        {navbar_data.map((elem) => {
+        {navbar_data.map((elem,index) => {
           let { title, imageUrl } = elem;
           return (
             <>
-              <div className="img">
-                <img src={imageUrl} alt="" />
+              <div className="img" key={index}>
+                <img src={imageUrl} alt={title} />
                 <h4>{title}</h4>
               </div>
             </>

@@ -7,13 +7,13 @@ const Header = () => {
                 <h2>Logo</h2>
             </div>
             <div className='search'>
-                <input type="text" placeholder='Serch Something....!'/>
+                <input type="text" placeholder='Search Something....!'/>
                 <button>Search</button>
             </div>
             <div className='icon'>
-                <h3>😎</h3>
-                <h3>😂</h3>
-                <h3>😁</h3>
+                <h3>🛒</h3>
+                <h3>❤️</h3>
+                <h3>🔗</h3>
             </div>
         </div>
     )

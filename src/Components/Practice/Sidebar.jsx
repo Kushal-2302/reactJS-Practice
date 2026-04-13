@@ -11,7 +11,7 @@ const Sidebar = () => {
                     return (
                         <div className="brands">
                             <input type="checkbox" />
-                            <h4>{brandname}</h4>
+                            <p>{brandname}</p>
                         </div>
                     )
                 })}
