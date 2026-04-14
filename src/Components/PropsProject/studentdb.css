@@ -45,6 +45,8 @@
           td {
             padding: 15px;
             transition: 0.2s;
+            color: #7c5bc7;
+            
           }
           td:hover {
             box-shadow: 1px 1px 14px lightgray;
