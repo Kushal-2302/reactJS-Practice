@@ -1,13 +1,15 @@
 import React from "react";
+import './studentdb.css'
 
 const BEdata = (props) => {
   // console.log(props)
   let { beStudents } = props;
 //   console.log(beStudents)
   return (
-    <div>
+    <div className="beContainer">
       <h1>BE Students Data</h1>
-      <table>
+      <div className="container">
+         <table>
         <thead>
           <tr>
             <th>Fname</th>
@@ -32,6 +34,7 @@ const BEdata = (props) => {
           })}
         </tbody>
       </table>
+      </div>
     </div>
   );
 };

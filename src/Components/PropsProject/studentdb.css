@@ -1,0 +1,73 @@
+.allStudContainer,
+.beContainer,
+.mcaContainer {
+  text-align: center;
+  margin: 30px auto;
+
+  h1 {
+    background: linear-gradient(135deg, #896eca, #faa1e1);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    table {
+      border-collapse: collapse;
+      width: 70vw;
+      margin: 20px auto;
+      box-shadow: 1px 1px 14px gray;
+      border-radius: 12px;
+      thead {
+        background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+        border-radius: 10px;
+        color: #fff;
+        font-weight: bold;
+        font-size: large;
+        tr {
+          th {
+            padding: 15px;
+          }
+          th:first-child {
+            border-top-left-radius: 12px;
+          }
+          th:last-child {
+            border-top-right-radius: 12px;
+          }
+        }
+      }
+      tbody {
+        tr {
+          td {
+            padding: 15px;
+            transition: 0.2s;
+          }
+          td:hover {
+            box-shadow: 1px 1px 14px lightgray;
+            transform: scale(1.2);
+          }
+        }
+
+        tr:nth-child(even) {
+          background: linear-gradient(
+            135deg,
+            rgba(161, 140, 209, 0.2),
+            rgba(251, 194, 235, 0.2)
+          );
+        }
+      }
+    }
+  }
+}
+
+.students-db {
+  hr {
+    height: 3px;
+    border: none;
+    background: linear-gradient(135deg, #896eca, #faa1e1);
+  }
+}
