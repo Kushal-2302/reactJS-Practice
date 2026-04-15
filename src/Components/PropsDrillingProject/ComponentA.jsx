@@ -2,11 +2,11 @@ import React from 'react'
 import ComponentB from './ComponentB'
 
 const ComponentA = () => {
-    let user = []
+    const data = []
     return (
         <div>
             <h1>I am in Component A</h1>
-            <ComponentB user1 = {user}/>
+            <ComponentB data = {data}/>
         </div>
     )
 }
