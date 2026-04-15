@@ -9,6 +9,11 @@ import Students from "./Components/StudentsDB/Students";
 import Friends from "./Components/FriendsDetails/Friends";
 import Events from "./Components/Events/Events";
 import WebApp from "./Components/Practice/WebApp";
+import Parent from "./Components/Props/Parent";
+import Trainer from "./Components/SendDetails/Trainer";
+import StudentDB from "./Components/PropsProject/StudentDB";
+import CompA from "./Components/PropsDrilling/CompA";
+import ComponentA from "./Components/PropsDrillingProject/ComponentA";
 
 const App = () => {
   return (
@@ -34,8 +39,17 @@ const App = () => {
       {/* --Date : 10/04/2026  */}
       {/* <Events /> */}
 
-      {/* --Date : 10/04/2026 */}
-      <WebApp />
+      {/* --Date : 11/04/2026 */}
+      {/* <WebApp /> */}
+
+      {/* --Date : 13/04/2026 */}
+      {/* <Parent/> */}
+      {/* <Trainer/> */}
+      {/* <StudentDB/> */}
+
+      {/* --Date : 14/04/2026 */}
+      {/* <CompA/> */}
+      <ComponentA/>
 
 
     </React.Fragment>
