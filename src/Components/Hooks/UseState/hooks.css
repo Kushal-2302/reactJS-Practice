@@ -1,0 +1,84 @@
+/* ------------Counter app----------------- */
+
+.counter-app{
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .count{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+        button{
+            margin: 20px 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background: crimson;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: .2s;
+            font-weight: bold;
+        }
+        button:hover{
+            transform: scale(.9);
+            opacity: .5;
+        }
+    }
+}
+
+/* ------------Update name-------------- */
+.update-name{
+    h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10px;
+        button{
+            margin: 20px 15px;
+            padding: 10px;
+            border-radius: 5px;
+            background: crimson;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: .2s;
+            font-weight: bold;
+        }
+    }
+}
+
+/* ----------on-off------------- */
+.on-off{
+     h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        button{
+            padding: 10px 40px;
+            margin: 20px ;
+            font-size: 20px;
+            /* background: crimson; */
+            border: none;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .on{
+            background: green;
+        }
+        .off{
+            background: crimson;
+        }
+    }
+}
