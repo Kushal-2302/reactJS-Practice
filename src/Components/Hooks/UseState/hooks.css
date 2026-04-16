@@ -1,84 +1,172 @@
 /* ------------Counter app----------------- */
 
-.counter-app{
-    h1{
-        text-align: center;
-        text-decoration: underline;
+.counter-app {
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin: 20px 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background: crimson;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s;
+      font-weight: bold;
     }
-    .count{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-        button{
-            margin: 20px 15px;
-            padding: 10px;
-            border-radius: 5px;
-            background: crimson;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            transition: .2s;
-            font-weight: bold;
-        }
-        button:hover{
-            transform: scale(.9);
-            opacity: .5;
-        }
+    button:hover {
+      transform: scale(0.9);
+      opacity: 0.5;
     }
+  }
 }
 
 /* ------------Update name-------------- */
-.update-name{
-    h1{
-        text-align: center;
-        text-decoration: underline;
+.update-name {
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    button {
+      margin: 20px 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background: crimson;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s;
+      font-weight: bold;
     }
-    .container{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 10px;
-        button{
-            margin: 20px 15px;
-            padding: 10px;
-            border-radius: 5px;
-            background: crimson;
-            color: #fff;
-            border: none;
-            cursor: pointer;
-            transition: .2s;
-            font-weight: bold;
-        }
-    }
+  }
 }
 
 /* ----------on-off------------- */
-.on-off{
-     h1{
-        text-align: center;
-        text-decoration: underline;
+.on-off {
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      padding: 10px 40px;
+      margin: 20px;
+      font-size: 20px;
+      /* background: crimson; */
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
     }
-    .container{
-        display: flex;
+    .on {
+      background: green;
+    }
+    .off {
+      background: crimson;
+    }
+  }
+}
+
+/* ------------Toggle Para-------------- */
+.toggle-para {
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .container {
+    /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
+    button {
+      margin: 20px;
+      padding: 5px 20px;
+      background: lightgreen;
+      border: none;
+    }
+    p {
+      background: lightblue;
+      padding: 10px;
+    }
+  }
+}
+
+/* -------------Toggle Card------------------ */
+
+.card {
+  /* width: 200px; */
+  padding: 20px;
+
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .container {
+    width: 200px;
+    border: 1px solid black;
+    
+    img {
+      width: 200px;
+    }
+    h3,
+    p {
+      padding: 10px;
+    }
+  }
+}
+
+/* -----------Toggle Theme----------- */
+.toggle-theme {
+  h1 {
+    text-align: center;
+    text-decoration: underline;
+  }
+  .container {
+    button {
+      margin: 20px;
+      padding: 5px 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+/* ---------------Toggle Body theme---------- */
+.toggle-theme-body{
+
+    .container{
+        height: 10vh;
+        width: 20%;
+        margin: 5vh auto;
+        border: 1px solid black;
+        border-radius: 50px;
+        overflow: hidden;
         button{
-            padding: 10px 40px;
-            margin: 20px ;
-            font-size: 20px;
-            /* background: crimson; */
-            border: none;
-            color: #fff;
-            border-radius: 5px;
+            width: 50%;
+            height: 100%;
             cursor: pointer;
+            background-color: lightgrey;
+            border: none;
+            transition: all .5s;
         }
-        .on{
-            background: green;
-        }
-        .off{
-            background: crimson;
+        .right{
+            margin-left: 50%;
         }
     }
 }
