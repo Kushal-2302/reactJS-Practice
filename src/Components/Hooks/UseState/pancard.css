@@ -30,7 +30,7 @@
   font-family: Arial, sans-serif;
 }
 
-/* 🔹 Front Design */
+/* Front Design */
 .card-front {
   background: linear-gradient(135deg, #e6f0ff, #ffffff);
 }
@@ -50,7 +50,7 @@
   font-size: 13px;
 }
 
-/* 🔹 Back Design */
+/* Back Design */
 .card-back {
   background: linear-gradient(135deg, #fff5e6, #ffffff);
   transform: rotateY(180deg);
