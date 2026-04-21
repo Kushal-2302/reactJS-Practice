@@ -1,0 +1,73 @@
+.otp-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+.otp-container .card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+.otp-container h1 {
+  margin-bottom: 20px;
+}
+
+.otp-container .btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.otp-container .primary {
+  background: #4f46e5;
+  color: white;
+}
+
+.otp-container .primary:hover {
+  background: #4338ca;
+}
+
+.otp-container .success {
+  background: #16a34a;
+  color: white;
+}
+
+.otp-container .success:hover {
+  background: #15803d;
+}
+
+.otp-container .input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.otp-container .timer {
+  color: red;
+  font-weight: bold;
+}
+
+.otp-container .otp-text span {
+  font-weight: bold;
+}
+
+.otp-container .message {
+  margin-top: 10px;
+  font-weight: bold;
+}
