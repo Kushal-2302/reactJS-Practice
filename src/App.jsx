@@ -14,6 +14,23 @@ import Trainer from "./Components/SendDetails/Trainer";
 import StudentDB from "./Components/PropsProject/StudentDB";
 import CompA from "./Components/PropsDrilling/CompA";
 import ComponentA from "./Components/PropsDrillingProject/ComponentA";
+import CounterApp from "./Components/Hooks/UseState/CounterApp";
+import UpdateName from "./Components/Hooks/UseState/UpdateName";
+import OnOff from "./Components/Hooks/UseState/OnOff";
+import TogglePara from "./Components/Hooks/UseState/TogglePara";
+import Card from "./Components/Hooks/UseState/Card";
+import ToggleCard from "./Components/Hooks/UseState/ToggleCard";
+import Theme from "./Components/Hooks/UseState/Theme/Theme";
+import ThemeBody from "./Components/Hooks/UseState/Theme/ThemeBody";
+import Login from "./Components/Hooks/UseState/Login";
+import PanCard from "./Components/Hooks/UseState/PanCard";
+import Example1 from "./Components/Hooks/UseRef/Example1";
+import InputValue from "./Components/Hooks/UseRef/InputValue";
+import UseEffectExample from "./Components/Hooks/UseEffect/UseEffectExample";
+import Task1 from "./Components/Hooks/UseEffect/Task1";
+import OtpValidation from "./Components/OtpValidation/OtpValidation";
+import Acomp from "./Components/Hooks/UseContext/Acomp";
+import Person1 from "./Components/Hooks/UseContextGift/Person1";
 
 const App = () => {
   return (
@@ -43,15 +60,49 @@ const App = () => {
       {/* <WebApp /> */}
 
       {/* --Date : 13/04/2026 */}
-      {/* <Parent/> */}
-      {/* <Trainer/> */}
-      {/* <StudentDB/> */}
+      {/* <Parent/>
+      <Trainer/>
+      <StudentDB/> */}
 
       {/* --Date : 14/04/2026 */}
-      {/* <CompA/> */}
-      <ComponentA/>
+      {/* <CompA/>
+      <ComponentA/> */}
 
+      {/* --Date : 15/04/2026 */}
+      {/* <CounterApp/>
+      <hr />
+      <UpdateName/>
+      <hr />
+      <OnOff/>
+      <hr /> */}
 
+      {/* --Date : 16/04/2026 */}
+      {/* <TogglePara />
+      <hr />
+      <ToggleCard />
+      <hr />
+      <Theme />
+      <hr />
+      <ThemeBody /> */}
+
+      {/* --Date : 17/04/2026 */}
+      {/* <Login />
+      <PanCard /> */}
+
+      {/* --Date : 18/04/2026 */}
+      <Example1 /> <br />
+      <hr />
+      <InputValue />
+      {/* <UseEffectExample/> */}
+      {/* <Task1 /> */}
+
+      {/* --Date : 21/04/2026 */}
+      {/* <OtpValidation /> */}
+
+      {/* --Date : 22/04/2026 */}
+      {/* <Acomp /> */}
+      {/* <Person1 /> */}
+    
     </React.Fragment>
   );
 };
