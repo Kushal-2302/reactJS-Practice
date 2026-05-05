@@ -31,6 +31,8 @@ import Task1 from "./Components/Hooks/UseEffect/Task1";
 import OtpValidation from "./Components/OtpValidation/OtpValidation";
 import Acomp from "./Components/Hooks/UseContext/Acomp";
 import Person1 from "./Components/Hooks/UseContextGift/Person1";
+import FetchApi from "./Components/FetchAPI/FetchApi";
+import FetchAPI from "./Components/ContextAPI/FetchAPI";
 
 const App = () => {
   return (
@@ -90,9 +92,9 @@ const App = () => {
       <PanCard /> */}
 
       {/* --Date : 18/04/2026 */}
-      <Example1 /> <br />
+      {/* <Example1 /> <br />
       <hr />
-      <InputValue />
+      <InputValue /> */}
       {/* <UseEffectExample/> */}
       {/* <Task1 /> */}
 
@@ -102,7 +104,11 @@ const App = () => {
       {/* --Date : 22/04/2026 */}
       {/* <Acomp /> */}
       {/* <Person1 /> */}
-    
+
+      {/* --Date : 05/05/2026 */}
+      {/* <FetchApi/> */}
+      <FetchAPI/>
+
     </React.Fragment>
   );
 };
