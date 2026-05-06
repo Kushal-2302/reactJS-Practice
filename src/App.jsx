@@ -33,6 +33,7 @@ import Acomp from "./Components/Hooks/UseContext/Acomp";
 import Person1 from "./Components/Hooks/UseContextGift/Person1";
 import FetchApi from "./Components/FetchAPI/FetchApi";
 import FetchAPI from "./Components/ContextAPI/FetchAPI";
+import MainApp from "./Components/WebApp/MainApp";
 
 const App = () => {
   return (
@@ -71,8 +72,8 @@ const App = () => {
       <ComponentA/> */}
 
       {/* --Date : 15/04/2026 */}
-      {/* <CounterApp/>
-      <hr />
+      {/* <CounterApp/> */}
+      {/* <hr />
       <UpdateName/>
       <hr />
       <OnOff/>
@@ -108,6 +109,9 @@ const App = () => {
       {/* --Date : 05/05/2026 */}
       {/* <FetchApi/> */}
       {/* <FetchAPI/> */}
+
+      {/* --Date : 06/05/2026 */}
+      <MainApp/>
 
     </React.Fragment>
   );
