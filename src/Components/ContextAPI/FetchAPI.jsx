@@ -16,6 +16,7 @@ const FetchAPI = () => {
             console.log("Done...!")
         }
     }
+    
     useEffect(()=>{
         fetchPlaceholderApi()
     },[])

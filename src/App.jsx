@@ -107,7 +107,7 @@ const App = () => {
 
       {/* --Date : 05/05/2026 */}
       {/* <FetchApi/> */}
-      <FetchAPI/>
+      {/* <FetchAPI/> */}
 
     </React.Fragment>
   );

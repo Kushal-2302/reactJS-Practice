@@ -16,18 +16,22 @@ const Child = () => {
             <th>Name</th>
             <th>Username</th>
             <th>Email</th>
+            <th>Phone</th>
+            <th>Website</th>
           </tr>
         </thead>
         <tbody>
           
             {data.map((elem) => {
-              let { id, name, username, email } = elem;
+              let { id, name, username, email, phone, website } = elem;
               return (
                 <tr>
                   <td>{id}</td>
                   <td>{name}</td>
                   <td>{username}</td>
                   <td>{email}</td>
+                  <td>{phone}</td>
+                  <td>{website}</td>
                 </tr>
               );
             })}
